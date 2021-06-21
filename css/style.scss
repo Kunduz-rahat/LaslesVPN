@@ -93,7 +93,12 @@ ul li {
   color: #4F5665;
   margin-bottom: 50px;
 }
-
+.section__title{
+  font-weight: 500;
+  font-size: 35px;
+  line-height: 50px;
+    color: #0B132A;
+}
 .btn-section {
   font-weight: bold;
   line-height: 25px;
@@ -104,4 +109,53 @@ ul li {
   border-color: #F53838;
   box-shadow: 1px 26px 41px -3px rgba(245, 56, 56, 0.35);
 
+}
+
+.info {
+  padding: 67px 0;
+
+  &__grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 113px;
+  }
+
+  &__box {
+    display: flex;
+    align-items: center;
+  }
+
+  &__icon {
+    background: #FFECEC;
+    border-radius: 50%;
+    width: 55px;
+    height: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+.feature{
+  padding: 95px 0 34px 126px;
+  &__grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 170px;
+  }
+  &__box{
+    display: flex;
+    flex-direction: column ;
+    justify-content: center;
+  }
+  &__desk{
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  &__text{
+    line-height: 30px;
+        color: #4F5665;
+    margin: 20px 0;
+
+  }
 }
