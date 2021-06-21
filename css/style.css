@@ -57,6 +57,44 @@ ul li {
   border: 1px solid #F53855;
   border-radius: 50px;
   margin-left: 30px;
+  background: transparent;
+}
+
+.hero {
+  padding: 87px 0 102px;
+}
+.hero__grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 15px;
+}
+.hero__title {
+  font-weight: 500;
+  font-size: 50px;
+  line-height: 70px;
+  color: #0B132A;
+  margin-bottom: 20px;
+  padding-top: 15px;
+}
+.hero__title span {
+  font-weight: 600;
+}
+
+.section__desk {
+  line-height: 30px;
+  color: #4F5665;
+  margin-bottom: 50px;
+}
+
+.btn-section {
+  font-weight: bold;
+  line-height: 25px;
+  color: #FFFFFF;
+  padding: 17.5px 77.5px;
+  background: #F53838;
+  border-radius: 10px;
+  border-color: #F53838;
+  box-shadow: 1px 26px 41px -3px rgba(245, 56, 56, 0.35);
 }
 
 /*# sourceMappingURL=style.css.map */
