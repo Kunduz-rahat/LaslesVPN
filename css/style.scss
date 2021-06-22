@@ -93,12 +93,14 @@ ul li {
   color: #4F5665;
   margin-bottom: 50px;
 }
-.section__title{
+
+.section__title {
   font-weight: 500;
   font-size: 35px;
   line-height: 50px;
-    color: #0B132A;
+  color: #0B132A;
 }
+
 .btn-section {
   font-weight: bold;
   line-height: 25px;
@@ -135,27 +137,128 @@ ul li {
     align-items: center;
   }
 }
-.feature{
+
+.feature {
   padding: 95px 0 34px 126px;
-  &__grid{
+
+  &__grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-column-gap: 170px;
   }
-  &__box{
+
+  &__box {
     display: flex;
-    flex-direction: column ;
+    flex-direction: column;
     justify-content: center;
   }
-  &__desk{
+
+  &__desk {
     display: flex;
     align-items: center;
     margin-bottom: 15px;
+
+    svg {
+      margin-right: 12px;
+    }
   }
-  &__text{
+
+  &__text {
     line-height: 30px;
-        color: #4F5665;
+    color: #4F5665;
     margin: 20px 0;
 
+  }
+}
+
+.plan {
+  padding: 80px 0 150px;
+  background: linear-gradient(180deg, #F8F8F8 -45.04%, rgba(248, 248, 248, 0) 88.56%);
+  text-align: center;
+
+  &__grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 50px;
+  }
+
+  &__box {
+    padding: 79px 69px 50px;
+    background: #FFFFFF;
+    border: 2px solid #DDDDDD;
+    border-radius: 10px;
+    text-align: center;
+    &:hover{
+      border: 2px solid #F53838;
+           border-radius: 10px;
+    }
+  }
+
+  &__desk {
+    font-size: 14px;
+    line-height: 30px;
+    text-align: left;
+    color: #4F5665;
+    margin-bottom: 10px;
+    svg {
+      margin-right: 25px;
+    }
+  }
+  &__title {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    color: #0B132A;
+    margin: 30px 0;
+  }
+  &__btn {
+    font-weight: bold;
+    line-height: 19px;
+    color: #F53838;
+    padding: 13px 63px;
+    border: 2px solid #F53838;
+    border-radius: 50px;
+    background: #FFFFFF;
+    margin-top: 20px;
+
+    &:hover {
+      background: #F53838;
+      color: #FFFFFF;
+      box-shadow: 1px 26px 41px -3px rgba(245, 56, 56, 0.35);
+    }
+  }
+  &__price{
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 30px;
+    &--free{
+      margin: 130px 0 20px;
+    }
+    &--standard{
+      margin: 90px 0 20px;
+    }
+    &--premium{
+      margin: 50px 0 20px;
+    }
+
+  }
+}
+.vpn{
+  text-align: center;
+  &__img{
+    margin-top: 150px;
+  }
+}
+.mark-group{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.review{
+  text-align: center;
+  &__box{
+    padding: 30px;
+    border: 2px solid #F53838;
+      border-radius: 10px;
   }
 }
