@@ -188,9 +188,16 @@ ul li {
     border: 2px solid #DDDDDD;
     border-radius: 10px;
     text-align: center;
-    &:hover{
+
+    &:hover {
       border: 2px solid #F53838;
-           border-radius: 10px;
+      border-radius: 10px;
+    }
+
+    &:hover .plan__btn {
+      background: #F53838;
+      color: white;
+      box-shadow: 1px 26px 41px -3px rgba(245, 56, 56, 0.35);
     }
   }
 
@@ -200,10 +207,12 @@ ul li {
     text-align: left;
     color: #4F5665;
     margin-bottom: 10px;
+
     svg {
       margin-right: 25px;
     }
   }
+
   &__title {
     font-weight: 500;
     font-size: 18px;
@@ -211,6 +220,7 @@ ul li {
     color: #0B132A;
     margin: 30px 0;
   }
+
   &__btn {
     font-weight: bold;
     line-height: 19px;
@@ -221,44 +231,158 @@ ul li {
     background: #FFFFFF;
     margin-top: 20px;
 
-    &:hover {
-      background: #F53838;
-      color: #FFFFFF;
-      box-shadow: 1px 26px 41px -3px rgba(245, 56, 56, 0.35);
-    }
   }
-  &__price{
+
+  &__price {
     font-weight: 500;
     font-size: 25px;
     line-height: 30px;
-    &--free{
+
+    &--free {
       margin: 130px 0 20px;
     }
-    &--standard{
+
+    &--standard {
       margin: 90px 0 20px;
     }
-    &--premium{
+
+    &--premium {
       margin: 50px 0 20px;
     }
 
   }
 }
-.vpn{
+
+.vpn {
+  padding: 50px 0 88px;
   text-align: center;
-  &__img{
+
+  &__img {
     margin-top: 150px;
   }
 }
-.mark-group{
+
+.mark-group {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-.review{
+
+.review {
   text-align: center;
-  &__box{
+  padding: 50px 0 204px;
+  &__container {
+    max-width: 1440px;
+    position: relative;
+  }
+  &__row {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap:50px;
+  }
+  &__box {
     padding: 30px;
+    border: 2px solid #DDDDDD;
+    border-radius: 10px;
+  }
+
+  &__desk {
+    text-align: left;
+    font-weight: normal;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+  }
+
+  &__title {
+    text-align: left;
+    font-weight: 500;
+    font-size: 18px;
+
+    display: flex;
+    align-items: center;
+  }
+
+  &__text {
+    text-align: left;
+    margin-top: 20px;
+  }
+
+  &__img {
+    width: 50px;
+    height: 50px;
+  }
+
+  &__about {
+    display: flex;
+    align-items: center;
+
+    svg {
+      margin-left: 11px;
+    }
+  }
+
+  &__info {
+    margin: 0 50px 0 20px;
+
+  }
+}
+
+.subscribe{
+  padding: 58px 70px;
+  &__grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 378px;
+
+  }
+
+}
+
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot.active span {
+  background: #ff0018;
+  width: 30px;
+}
+
+.owl-dots {
+  position: absolute;
+}
+
+.owl-item.active.blog-row {
+  border: none;
+  box-shadow: 15px 25px 60px -10px rgba(0, 0, 0, 0.1);
+}
+
+.direction {
+  display: flex;
+  justify-content: flex-end;
+  &__left, &__right {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
     border: 2px solid #F53838;
-      border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+}
+.owl-prev.disabled, .owl-next.disabled {
+  .direction__left, .direction__right {
+    svg[fill] {
+      fill: #FFFFFF;
+    }
+    background: #F53838;
+    border: 2px solid #F53838;
+    box-sizing: border-box;
+    box-shadow: 0 14px 44px rgba(14, 20, 34, 0.08);
+  }
+}
+
+.owl-item.active {
+  .review__box:nth-child(1) {
+    border: 2px solid #F53838;
+
   }
 }
