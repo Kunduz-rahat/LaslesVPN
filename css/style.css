@@ -85,6 +85,10 @@ ul li {
   color: #4F5665;
   margin-bottom: 50px;
 }
+.section__desk__footer {
+  margin: 20px 0 30px;
+  line-height: 30px;
+}
 
 .section__title {
   font-weight: 500;
@@ -105,16 +109,31 @@ ul li {
 }
 
 .info {
-  padding: 67px 0;
+  padding: 67px 0 91px;
 }
 .info__grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-column-gap: 113px;
+  grid-column-gap: 243px;
 }
 .info__box {
   display: flex;
   align-items: center;
+  position: relative;
+}
+.info__box-modifier:before {
+  content: "";
+  border: 1px solid #EEEFF2;
+  height: 125.57px;
+  left: -115px;
+  position: absolute;
+}
+.info__box-modifier:after {
+  content: "";
+  border: 1px solid #EEEFF2;
+  height: 125.57px;
+  right: -115px;
+  position: absolute;
 }
 .info__icon {
   background: #FFECEC;
@@ -124,6 +143,18 @@ ul li {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-right: 35px;
+}
+.info__numbers {
+  font-size: 20px;
+  line-height: 30px;
+  color: #4F5665;
+}
+.info__numbers span {
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 30px;
+  margin-bottom: 5px;
 }
 
 .feature {
@@ -228,6 +259,9 @@ ul li {
 .vpn__img {
   margin-top: 150px;
 }
+.vpn__img:hover svg {
+  border-color: aqua;
+}
 
 .mark-group {
   display: flex;
@@ -288,6 +322,9 @@ ul li {
 
 .subscribe {
   padding: 58px 70px;
+  border-radius: 10px;
+  border: 1px solid white;
+  margin-bottom: 115px;
 }
 .subscribe__grid {
   display: grid;
@@ -337,4 +374,51 @@ ul li {
   border: 2px solid #F53838;
 }
 
+.footer {
+  padding: 180px 0 100px;
+  background: #F8F8F8;
+}
+.footer__item {
+  display: flex;
+  flex-direction: column;
+}
+.footer__grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 220px;
+}
+.footer__row {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.footer__title {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 30px;
+  margin-bottom: 20px;
+}
+.footer__link {
+  line-height: 30px;
+  margin-bottom: 10px;
+  color: #4F5665;
+}
+.footer__socials {
+  margin-bottom: 30px;
+}
+
+.fabfa-facebook-f, .fabfa-twitter, .fabfa-instagram {
+  height: 34px;
+  width: 34px;
+  border-radius: 50%;
+  background: white;
+  color: #F53838;
+}
+
+.indonesia:hover {
+  transform: scale(1.4);
+  fill: #0B132A;
+}
+
 /*# sourceMappingURL=style.css.map */
+
+
