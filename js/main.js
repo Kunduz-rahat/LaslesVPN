@@ -16,6 +16,9 @@ $(document).ready(function(){
         "                    </svg>\n" +
         "\n" +
         "                </div>\n"],
+        responsive: {
+
+        }
     });
 });
 
