@@ -76,7 +76,7 @@ ul li {
   padding-top: 15px;
 }
 .hero__title span {
-  font-weight: 600;
+  font-weight: bold;
 }
 
 .section__desk {
@@ -98,6 +98,9 @@ ul li {
 .section__desk_hero {
   margin-bottom: 50px;
 }
+.section__desk_hero span {
+  font-weight: bold;
+}
 
 .section__title {
   font-weight: 500;
@@ -114,9 +117,14 @@ ul li {
   padding: 17.5px 0;
   background: #F53838;
   border-radius: 10px;
-  border: none;
+  border: transparent;
   box-shadow: 1px 26px 41px -3px rgba(245, 56, 56, 0.35);
   width: 250px;
+}
+.btn-section:hover {
+  color: #F53838;
+  background: white;
+  border: 1px solid #F53838;
 }
 
 .info__container {
