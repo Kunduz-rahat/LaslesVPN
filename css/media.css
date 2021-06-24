@@ -1,0 +1,145 @@
+@media (max-width: 1200px) {
+    .container {
+        max-width: 970px;
+    }
+
+    .hero__title {
+        font-size: 30px;
+        line-height: 40px
+    }
+
+    .section__desk_hero {
+        margin-bottom: 38px;
+        font-size: 11px;
+    }
+
+    .menu__item:not(:last-child) {
+        margin-right: 35px;
+    }
+
+    .menu__link {
+        font-size: 14px;
+    }
+
+    .menu__check-in {
+        font-size: 14px;
+    }
+
+    .section__title {
+        font-weight: 500;
+        font-size: 27px;
+        line-height: 43px;
+        margin-bottom: 18px;
+    }
+
+    .feature__img {
+        width: 100%;
+    }
+
+    .feature__text {
+        line-height: 27px;
+        margin: 17px 0;
+        font-size: 14px;
+    }
+
+    .feature__desk {
+        font-size: 13px;
+        margin-bottom: 12px;
+    }
+    .info__grid {
+               grid-column-gap: 206px;
+    }
+    .info__container {
+        padding: 45px 56px;
+    }
+
+    .info__numbers span {
+        font-weight: bold;
+        font-size: 23px;
+        line-height: 21px;
+    }
+
+    .info__numbers {
+        font-size: 18px;
+    }
+
+    .plan {
+        padding: 74px 0 138px;
+
+    }
+
+    .plan__desk {
+        font-size: 10px;
+        line-height: 28px;
+    }
+
+    .plan__btn {
+        margin-top: 18px;
+        font-size: 14px;
+        padding: 11px 59px;
+    }
+
+    .plan__box {
+        padding: 61px 57px 37px;
+    }
+
+
+    .vpn__img {
+        margin-top: 40px;
+    }
+
+    .vpn__img svg {
+        width: 920px;
+    }
+
+
+    .section__desk {
+        line-height: 28px;
+        font-size: 11px;
+    }
+
+    .review__title {
+        font-size: 10px;
+    }
+
+    .review__desk {
+        font-size: 8px;
+    }
+    .review__box {
+        padding: 23px;
+    }
+
+    .review__text {
+        font-size: 11px;
+    }
+
+    .review__info {
+        margin: 0 35px 0 20px;
+    }
+
+    .footer__title {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 28px;
+        margin-bottom: 18px;
+    }
+
+    .footer__link {
+        line-height: 26px;
+        margin-bottom: 9px;
+        font-size: 14px;
+    }
+    .mark__img img{
+        width: 145px;
+    }
+    .footer__feedback{
+        font-size: 14px;
+    }
+}
+
+    @media (max-width: 992px) {
+        .container {
+            max-width: 700px;
+        }
+    }
+
