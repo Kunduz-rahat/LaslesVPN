@@ -570,7 +570,9 @@
     .container {
         max-width: 280px;
     }
-
+.header{
+    padding: 25px;
+}
     .menu {
         display: none;
     }
@@ -588,9 +590,16 @@
     }
     .section__desk {
         line-height: 15px;
-        font-size: 7px;
+        font-size: 12px;
     }
-
+.section__desk_plan{
+    font-size: 15px;
+}.section__desk_plan br{
+    display: none;
+ }
+    .plan__desk svg {
+        margin-right: 10px;
+    }
     .section__desk_hero {
         margin-bottom: 14px;
     }
@@ -601,32 +610,42 @@
         font-size: 13px;
     }
     .section__title {
-        font-size: 21px;
-        line-height: 25px;
+        font-size: 23px;
+        line-height: 27px;
     }
     .feature {
-        padding: 23px 22px 33px;
+        padding: 5px 12px 12px;
+
+    }
+    .feature__grid{
+        grid-row-gap: 15px;
     }
     .feature__text {
         line-height: 18px;
         margin: 15px 0;
-        font-size: 9px;
+        font-size: 15px;
     }
     .feature__desk {
-        font-size: 8.3px;
+        font-size: 13.3px;
         margin-bottom: 6px;
     }
     .feature__desk svg {
               width: 17px;
         height: 17px;
     }
+    .plan{
+        padding: 12px 0 15px;
+    }
     .plan__box {
         padding: 21px 46px 19px;
     }
     .plan__desk {
-        font-size: 11px;
+        font-size: 12px;
         line-height: 24px;
         margin-bottom: 5px;
+    }
+    .section__desk br{
+        display: none;
     }
     .plan__btn {
         margin-top: 11px;
@@ -668,5 +687,11 @@
         line-height: 19px;
         margin-bottom: 5px;
         font-size: 11px;
+    }
+    .subscribe .section__title{
+        font-size: 21px;
+    }
+    .review .section__title{
+        font-size: 21px;
     }
 }
