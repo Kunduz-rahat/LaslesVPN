@@ -32,7 +32,9 @@ ul li {
   justify-content: space-between;
   align-items: center;
 }
-
+.mobile__menu{
+    display: none;
+}
 .menu {
   padding: 45px 0;
   &__link{
@@ -44,6 +46,8 @@ ul li {
     &:not(:last-child) {
       margin-right: 40px;
     }
+
+
   }
 
   &__check-in {

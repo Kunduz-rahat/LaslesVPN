@@ -32,6 +32,10 @@ ul li {
   align-items: center;
 }
 
+.mobile__menu {
+  display: none;
+}
+
 .menu {
   padding: 45px 0;
 }

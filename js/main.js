@@ -29,4 +29,9 @@ $(document).ready(function () {
         }
     });
 });
+const topMenu = document.querySelector(".menu")
+const mobileMenu = document.querySelector(".mobile-menu")
+mobileMenu.addEventListener("click", () => {
+    topMenu.classList.toggle("show-menu")
+})
 
