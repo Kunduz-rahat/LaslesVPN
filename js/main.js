@@ -20,18 +20,30 @@ $(document).ready(function () {
             320: {
                 items: 1
             },
-            480:{
+            480: {
                 items: 1
             },
-            992:{
-                items:1
+            992: {
+                items: 1
             }
         }
     });
 });
-const topMenu = document.querySelector(".menu")
-const mobileMenu = document.querySelector(".mobile-menu")
+
+
+const Menu = document.querySelector(".menu")
+const mobileMenu = document.querySelector(".mobile__menu")
 mobileMenu.addEventListener("click", () => {
-    topMenu.classList.toggle("show-menu")
+    Menu.classList.toggle("show-menu")
 })
+
+
+
+
+$(document).ready(function($) {
+    $('.count-number').counterUp({
+        delay: 10,
+        time: 10000
+    });
+});
 

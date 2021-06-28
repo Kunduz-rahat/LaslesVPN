@@ -46,10 +46,11 @@
                 <a href="#" class="menu__check-in">Sign In</a>
                 <button class="btn-check-in">Sign Up</button>
             </form>
+            <button class="mobile__menu">
+                <i class="fas fa-bars"></i>
+            </button>
         </nav>
-        <button class="mobile__menu">
-            <i class="fas fa-bars"></i>
-        </button>
+
     </div>
 </header>
 <main>
@@ -67,7 +68,7 @@
                     </p>
                     <button class="btn-section">Get Started</button>
                 </div>
-                <div class="hero__box hero__box-img">
+                <div class="hero__box hero__box-img rellax">
                     <img src="./images/hero.png" alt="">
                 </div>
             </div>
@@ -86,7 +87,7 @@
 
                     </div>
                     <p class="info__numbers">
-                        <span>90+</span> <br>Users
+                        <span class="timer count-title count-number">90+</span> <br>Users
                     </p>
                 </div>
                 <div class="info__box info__box-modifier ">
@@ -1260,5 +1261,10 @@
 <script src="./js/owl.carousel.min.js"></script>
 <script src="./js/main.js"></script>
 <script src="./js/script.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/dixonandmoe/rellax@master/rellax.min.js"></script>
+<script>
+    // Accepts any class name
+    var rellax = new Rellax('.rellax');
+</script>
 </body>
 </html>
